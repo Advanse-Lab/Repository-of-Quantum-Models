@@ -4,68 +4,68 @@ A collaborative showcase of quantum system modeling, combining code, multiple mo
 
 ---
 
-## 🚀 About
+## About
 
 This repository is a **community-driven collection of quantum system models**, where each contribution explores how quantum problems can be represented, structured, and implemented.
 
 The goal is to bridge the gap between:
 
-* Quantum computing theory
-* Software design and architecture
-* System modeling approaches
+- Quantum computing theory
+- Software design and architecture
+- System modeling approaches
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 Modeling quantum systems is still an open challenge. Different approaches exist — from UML adaptations to custom abstractions — but there is no widely adopted standard.
 
 This repository aims to:
 
-* Provide **real examples** of quantum system modeling
-* Compare **different modeling approaches**
-* Encourage **experimentation and discussion**
-* Serve as a **reference for researchers and developers**
+- Provide **real examples** of quantum system modeling
+- Compare **different modeling approaches**
+- Encourage **experimentation and discussion**
+- Serve as a **reference for researchers and developers**
 
 ---
 
-## 📦 What You'll Find
+## What You'll Find
 
 Each example includes:
 
-* 🧠 Problem description
-* ⚙️ Implementation (e.g., Qiskit, QuTiP, etc.)
-* 📊 Diagrams (UML, QuanUML, or other approaches)
-* 💡 Design insights and trade-offs
+- Problem description
+- Implementation (e.g., Qiskit, QuTiP, etc.)
+- Diagrams (UML, QuanUML, or other approaches)
+- Design insights and trade-offs
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
-examples/        → Individual modeling cases  
-templates/       → Contribution templates  
-docs/            → Guidelines and supporting material  
+examples/        → Individual modeling cases
+templates/       → Contribution templates
+docs/            → Guidelines and supporting material
 ```
 
 ---
 
-## 🌱 Featured Examples
+## Featured Examples
 
-* **Ergotropy Optimizer** *(initial contribution)*
+- **Ergotropy Optimizer** _(initial contribution)_
   → Modeling a quantum thermodynamics system with structured design and abstractions
 
-*(More coming soon — contributions are welcome!)*
+_(More coming soon — contributions are welcome!)_
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from anyone interested in:
 
-* Quantum computing
-* System modeling
-* Software architecture
+- Quantum computing
+- System modeling
+- Software architecture
 
 To contribute:
 
