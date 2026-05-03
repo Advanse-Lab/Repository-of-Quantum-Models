@@ -2,8 +2,6 @@
 
 Modeling a quantum thermodynamic system focused on ergotropy optimization using structured abstractions and system design principles.
 
----
-
 ## 📌 Problem Description
 
 This project explores a quantum thermodynamics scenario where the goal is to **optimize ergotropy**, i.e., the maximum extractable work from a quantum system.

@@ -1,63 +1,41 @@
-# Quantum Modeling Showcase
+# Repository-of-Quantum-Models
 
-A collaborative showcase of quantum system modeling, combining code, multiple modeling approaches, and design insights.
+This repository is a **collaborative collection of quantum computing system models**, in which each contribution explores how problems involving quantum implementations can be represented, structured, and developed.
 
----
-
-## About
-
-This repository is a **community-driven collection of quantum system models**, where each contribution explores how quantum problems can be represented, structured, and implemented.
-
-The goal is to bridge the gap between:
+Its purpose is to bridge the gap between:
 
 - Quantum computing theory
-- Software design and architecture
-- System modeling approaches
-
----
+- Software design and architecture for quantum computing
+- System modeling approaches within the context of quantum computing
 
 ## Purpose
 
-Modeling quantum systems is still an open challenge. Different approaches exist — from UML adaptations to custom abstractions — but there is no widely adopted standard.
+The modeling of quantum systems remains an open challenge. Various approaches have been proposed — ranging from UML adaptations to custom abstractions — yet there is still no widely adopted standard. 
 
-This repository aims to:
+Therefore, this repository aims to:
 
 - Provide **real examples** of quantum system modeling
 - Compare **different modeling approaches**
 - Encourage **experimentation and discussion**
 - Serve as a **reference for researchers and developers**
 
----
-
 ## What You'll Find
 
-Each example includes:
-
-- Problem description
-- Implementation (e.g., Qiskit, QuTiP, etc.)
-- Diagrams (UML, QuanUML, or other approaches)
-- Design insights and trade-offs
-
----
+Within each example in the [projects](./projects) folder, it is possible to explore the implementation and/or modeling of a problem involving quantum computing. Each project presents its own description, a specific implementation in a given language or framework (e.g., Qiskit, QuTiP, etc.), modeling diagrams (UML, QuanUML, or other approaches), as well as discussions and conceptual insights.
 
 ## Repository Structure
 
 ```
-examples/        → Individual modeling cases
+projects/        → Individual modeling cases
 templates/       → Contribution templates
 docs/            → Guidelines and supporting material
 ```
 
----
-
 ## Featured Examples
 
-- **Ergotropy Optimizer** _(initial contribution)_
-  → Modeling a quantum thermodynamics system with structured design and abstractions
+- **quantum-thermal-machine-framework** _(initial contribution)_. This project implements a simulation system for quantum engines and quantum thermal machines. The architecture uses PennyLane for the construction of parameterized quantum circuits and QuTiP for the manipulation of quantum states (Density Matrices and State Vectors).
 
 _(More coming soon — contributions are welcome!)_
-
----
 
 ## Contributing
 
@@ -70,29 +48,20 @@ We welcome contributions from anyone interested in:
 To contribute:
 
 1. Fork the repository
-2. Create a new example inside `/examples/`
+2. Create a new example inside [projects](./projects)
 3. Follow the provided template
 4. Open a Pull Request
 
-📄 See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for full guidelines.
 
-## ⭐ Why This Matters
+## Why This Matters
 
-As quantum software grows more complex, **modeling and design will become essential**.
+Quantum computing is evolving rapidly, but the engineering practices used to model and structure quantum software are still not well established. Most available projects focus only on implementation, leaving aside important architectural and documentation perspectives.
 
 This repository is an attempt to:
 
 > Explore how we can think, design, and communicate quantum systems more effectively.
 
----
-
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
-
----
-
-## 🔗 Acknowledgments
-
-Contributions, ideas, and discussions are all welcome.
-If you're working on something interesting — add it here.
