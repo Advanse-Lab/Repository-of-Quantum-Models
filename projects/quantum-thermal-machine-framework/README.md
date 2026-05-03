@@ -72,9 +72,13 @@ The UML diagrams derived from this implementation are available in the `/diagram
 
 ```text
 ./diagrams/
-├── class-diagram.png       # Complete component hierarchy
-├── activity-diagram.png    # The 3 stages of the thermodynamic cycle
-└── sequence-diagram.png    # ErgotropyOptimizer ↔ QuantumThermalMachine interaction
+├── perez_activity_diagram.png    # The 3 stages of the thermodynamic cycle using Pérez-Castillo profile 
+├── perez_class_diagram.png    # Complete component hierarchy using Pérez-Castillo profile 
+├── quanuml_circuit_diagram.png    # The 3 stages of the thermodynamic cycle using QuanUML profile
+├── quanuml_class_diagram.png       # Complete component hierarchy using QuanUML profile
+└── quanuml_sequence_diagram.png    # Sequence diagram of the QuanUML profile used to represent the code execution flow.
+
+interaction
 ```
 
 ### Class Diagram
