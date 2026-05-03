@@ -88,7 +88,7 @@ The class diagram captures the central hierarchy of the framework:
 - `QuantumThermalMachine` depends on `QuantumOperation` (injection via `.apply()`)
 - `ErgotropyOptimizer` depends on `QuantumThermalMachine` and `ThermodynamicsCalculator`
 
-### Activity Diagram
+### Activity and Sequence Diagram
 
 Models the thermodynamic cycle as a sequential activity flow:
 
