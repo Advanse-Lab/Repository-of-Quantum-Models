@@ -143,10 +143,7 @@ Models the runtime interaction among `main.py`, `ErgotropyOptimizer`, `QuantumTh
 ## Structure
 
 ```text
-.
-├── README.md
-├── README_2.md
-├── CONTRIBUTING.md
+./code/
 ├── requirements.txt
 ├── main.py
 ├── framework/

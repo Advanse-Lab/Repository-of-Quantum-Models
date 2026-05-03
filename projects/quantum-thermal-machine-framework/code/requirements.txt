@@ -1,0 +1,7 @@
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+tqdm>=4.67
+qutip>=5.1
+qutip-qip>=0.4
+pennylane>=0.36

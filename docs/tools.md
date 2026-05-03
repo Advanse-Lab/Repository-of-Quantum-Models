@@ -4,11 +4,9 @@ This document lists tools that can be used to create diagrams, implement quantum
 
 You are free to use any tool, but the following are recommended for consistency, accessibility, and ease of contribution.
 
----
+## Diagramming Tools
 
-## 📊 Diagramming Tools
-
-### 🧩 PlantUML
+### PlantUML
 
 * Text-based diagram generation
 * Great for version control (diff-friendly)
@@ -20,9 +18,7 @@ You are free to use any tool, but the following are recommended for consistency,
 * Reproducible diagrams
 * Automated workflows
 
----
-
-### 🎨 draw.io (diagrams.net)
+### draw.io (diagrams.net)
 
 * Visual editor (drag-and-drop)
 * Easy to use
@@ -34,9 +30,7 @@ You are free to use any tool, but the following are recommended for consistency,
 * Visual exploration
 * Beginners
 
----
-
-### 🧠 Lucidchart
+### Lucidchart
 
 * Professional diagramming tool
 * Clean and polished visuals
@@ -46,11 +40,9 @@ You are free to use any tool, but the following are recommended for consistency,
 * Presentation-quality diagrams
 * Structured system visualization
 
----
+## Quantum Computing Frameworks
 
-## ⚛️ Quantum Computing Frameworks
-
-### 🧪 Qiskit
+### Qiskit
 
 * Widely used quantum computing framework
 * Strong ecosystem and documentation
@@ -61,9 +53,7 @@ You are free to use any tool, but the following are recommended for consistency,
 * Algorithms
 * Educational examples
 
----
-
-### 🔬 QuTiP
+### QuTiP
 
 * Focused on quantum dynamics and simulations
 * Strong for physics-based modeling
@@ -74,47 +64,30 @@ You are free to use any tool, but the following are recommended for consistency,
 * Hamiltonian-based simulations
 * Quantum thermodynamics
 
----
-
-### ⚡ Cirq
+### Cirq
 
 * Designed for NISQ devices
 * Focus on circuit construction and execution
 
----
+## Programming Languages
 
-## 💻 Programming Languages
-
-### 🐍 Python (recommended)
+### Python (recommended)
 
 * Dominant in quantum computing
 * Supported by most frameworks
 
----
-
-### 🦀 Other options
+### Other options
 
 * Julia
 * C++
 * JavaScript (for visualization or demos)
 
----
+## Supporting Tools
 
-## 🛠️ Supporting Tools
-
-### 📦 Git & GitHub
-
-* Version control
-* Collaboration via Pull Requests
-
----
-
-### 📓 Jupyter Notebooks
+### Jupyter Notebooks
 
 * Interactive experimentation
 * Great for demonstrations and explanations
-
----
 
 ### 📄 LaTeX
 
@@ -123,9 +96,7 @@ You are free to use any tool, but the following are recommended for consistency,
   * Mathematical notation
   * Academic-style documentation
 
----
-
-## 📁 File Format Recommendations
+## File Format Recommendations
 
 To keep the repository consistent:
 
@@ -134,8 +105,6 @@ To keep the repository consistent:
 * Prefer: `.svg`, `.png`, `.pdf`
 * Avoid: proprietary formats when possible
 
----
-
 ### Code
 
 * Include dependency files:
@@ -143,13 +112,9 @@ To keep the repository consistent:
   * `requirements.txt` (Python)
   * or equivalent
 
----
-
 ### Documentation
 
 * Use Markdown (`.md`)
-
----
 
 ## 🔄 Reproducibility
 
@@ -159,24 +124,8 @@ Whenever possible:
 * Provide instructions to regenerate visuals
 * Ensure code can be executed
 
----
-
 ## 🚫 What to Avoid
 
 * Tools that require paid access without alternatives
 * Diagrams without source files
 * Hard-to-read or overly complex visuals
-
----
-
-## 🚀 Final Note
-
-Tools are just a means — not the goal.
-
-What matters most is:
-
-* Clarity
-* Communication
-* Thoughtful modeling decisions
-
-Choose the tools that best help you express your ideas.
